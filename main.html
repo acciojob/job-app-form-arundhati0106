@@ -10,52 +10,35 @@
 	<!-- the entire body must be written by student -->
 	<form>
 		<div>
-			<label for="name">Name</label>
-			<input type="text" name="name" required>
-			<br/>
+			
+		</div><label for="name">Name</label>
+		<input type="text" id="name" required>
+		<br/>
 		
-			<label for="email">Email</label>
-			<input type="text" name="email" required>
-			<br/>
+		<label for="email">Email</label>
+			<input type="email" id="email" required>
+		<br>
 		
-			<label>Gender</label>
+		<label>Gender</label>
 			<input type="radio" name="gender" value="male" required/> Male 
-			<input type="radio" name="gender" value="female" required/> Female 
-			<br/>
-		</div>
-
-		<br/>
-		
+		    <input type="radio" name="gender" value="female" required/> Female 
+		<br>
 		<label for="laptop">Laptop Brands</label>
-		<select name="laptop">
-			<option value="Apple"> Apple </option>
-			<option value="Asus"> Asus </option>
-			<option value="HP"> HP </option>
+		<select id="laptop" name="laptop">
+			<option value="Apple">Apple</option>
+			<option value="Asus">Asus</option>
+			<option value="HP">HP</option>
 		</select>
-		<br/>
-		<br/>
-
-		<label for="age">Age</label>
-		<input type="number" value="age" required>
-		<br/>
-		<br/>
-				
-		<label for="dob">DOB</label>
-		<input type="date" value="dob" required>
-		<br/>
-		<br/>
-				
-		<label for="password">Password</label>
-		<input type="password" name="password" required>
-		<br/>
-		<br/>
-		
-		<label for="portfolio">Portfolio</label>
-		<input type="url" name="portfolio">
-		<br/>
-		<br/>
-		
-		<input type="submit" name = "Submit"> </input>
+		<br>
+		<label for="age">Age</label><input type="number" id="age" required>
+		<br>
+		<label for="dob">DOB</label><input type="date" id="dob" required>
+		<br>
+		<label for="password">Password</label><input type="password" id="password" required>
+		<br>
+		<label for="portfolio">Portfolio</label><input type="url" id="portfolio">
+		<br>
+		<button type="submit">Submit</button>
 	</form>
 
 	
